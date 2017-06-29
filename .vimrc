@@ -26,3 +26,7 @@ set laststatus=2
 set statusline=%F%m%r%h%w\%=[TYPE=%Y]\[FORMAT=%{&ff}]\[ENC=%{&fileencoding}]\[LOW=%l/%L]
 highlight statusline term=NONE cterm=NONE guifg=red ctermfg=yellow ctermbg=red
 
+" Key設定
+" insert mode時にjjと入力した場合はESC
+inoremap jj <Esc>
+
