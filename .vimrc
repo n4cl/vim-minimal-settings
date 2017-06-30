@@ -10,6 +10,9 @@ set number              " 行番号の表示
 set wrap                " 長いテキストの折り返し
 set textwidth=0         " 自動的に改行が入るのを無効化
 
+" tab, 行末のスペース, 改行コード等の表示フォーマット設定
+set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲
+
 " 検索
 set ignorecase          " 大文字小文字を区別しない
 set smartcase           " 検索文字に大文字がある場合は大文字小文字を区別
