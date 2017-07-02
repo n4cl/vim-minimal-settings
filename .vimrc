@@ -14,6 +14,9 @@ set number              " 行番号の表示
 set wrap                " 長いテキストの折り返し
 set textwidth=0         " 自動的に改行が入るのを無効化
 
+" <>をペアとする
+set matchpairs& matchpairs+=<:>
+
 " tab, 行末のスペース, 改行コード等の表示フォーマット設定
 set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲
 
