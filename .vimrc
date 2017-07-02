@@ -12,8 +12,12 @@ syntax on               " シンタックスハイライト
 set list                " 不可視文字の可視化
 set number              " 行番号の表示
 set wrap                " 長いテキストの折り返し
-set textwidth=0         " 自動的に改行が入るのを無効化
 set showmatch           " 対応する括弧などをハイライト表示する
+
+" 編集
+set textwidth=0         " 自動的に改行が入るのを無効化
+set tabstop=4           " TABはスペース4つと見倣す
+set expandtab           " ソフトタブを有効化 TABの代わりにスペースを入力
 
 " <>をペアとする
 set matchpairs& matchpairs+=<:>
