@@ -1,11 +1,13 @@
+scriptencoding utf-8
+
+" エンコード
+set fileencoding=utf-8    " 書き込む際のエンコード
+set fileencodings=utf-8   " 読み込む際のエンコード
+
 " ミュート設定
 set visualbell t_vb=      " 画面のフラッシュをさせない
 set noerrorbells          " エラー時のビープ音をオフ
 
-" エンコード
-set encoding=utf-8        " vim内で扱うエンコード
-set fileencoding=utf-8    " 書き込む際のエンコード
-set fileencodings=utf-8   " 読み込む際のエンコード
 
 " 表示
 syntax on               " シンタックスハイライト
