@@ -1,8 +1,8 @@
 scriptencoding utf-8
 
 " エンコード
-set fileencoding=utf-8    " 書き込む際のエンコード
-set fileencodings=utf-8   " 読み込む際のエンコード
+set fileencoding=utf-8               " 書き込む際のエンコード
+set fileencodings=utf-8,euc-jp,sjis  " 読み込む際のエンコード
 
 " ミュート設定
 set visualbell t_vb=      " 画面のフラッシュをさせない
