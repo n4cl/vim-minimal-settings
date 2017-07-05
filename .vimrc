@@ -17,9 +17,10 @@ set wrap                " 長いテキストの折り返し
 set showmatch           " 対応する括弧などをハイライト表示する
 
 " 編集
-set textwidth=0         " 自動的に改行が入るのを無効化
-set tabstop=4           " TABはスペース4つと見倣す
-set expandtab           " ソフトタブを有効化 TABの代わりにスペースを入力
+set textwidth=0                 " 自動的に改行が入るのを無効化
+set tabstop=4                   " TABはスペース4つと見倣す
+set expandtab                   " ソフトタブを有効化 TABの代わりにスペースを入力
+set backspace=indent,eol,start  " バックスペースでTAB、改行、文字の削除
 
 " <>をペアとする
 set matchpairs& matchpairs+=<:>
