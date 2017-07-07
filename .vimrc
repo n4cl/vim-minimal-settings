@@ -3,6 +3,7 @@ scriptencoding utf-8
 " エンコード
 set fileencoding=utf-8               " 書き込む際のエンコード
 set fileencodings=utf-8,euc-jp,sjis  " 読み込む際のエンコード
+set fileformats=unix,dos,mac         " 改行コードの自動認識
 
 " ミュート設定
 set visualbell t_vb=      " 画面のフラッシュをさせない
@@ -45,7 +46,6 @@ set laststatus=2
 set statusline=%F%m%r%h%w\%=[TYPE=%Y]\[FORMAT=%{&ff}]\[ENC=%{&fileencoding}]\[LOW=%l/%L]
 highlight statusline term=NONE cterm=NONE guifg=red ctermfg=yellow ctermbg=black
 
-" Key設定
-" insert mode時にjjと入力した場合はESC
-inoremap jj <Esc>
-
+" Key操作
+inoremap jj <Esc>  " insert mode時にjjと入力した場合はESC
+nnoremap Y y$      " 行全体のヤンクを現在地から行末までヤンクに変更
