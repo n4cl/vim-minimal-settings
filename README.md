@@ -1,1 +1,2 @@
-# vim-settings
+vim-minimal-settings
+===
